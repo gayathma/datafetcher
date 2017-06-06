@@ -11,19 +11,29 @@ use GuzzleHttp\Client;
 class FetcherTest extends TestCase
 {
 
+	/**
+     * The Guzzle Client instance.
+     *
+     * @var GuzzleHttp\Client
+     */
     private $client;
 
     /**
-     * 
+     * Test Open Sky Data Display
      * 
      * @return void
      */
     public function testDisplayOpenSkyData()
     {
         $response = $this->call('GET', 'air-traffic');
-        $this->assertEquals(200, $response->getStatusCode());
+        $this->assertTrue($response->isOK());
     }
 
+    /**
+     * Set up the Guzzle Client instance.
+     *
+     * @return void
+     */
     public function setUp()
     {
         parent::setUp();
@@ -39,7 +49,7 @@ class FetcherTest extends TestCase
     }
 	
     /**
-     * To test the API
+     * Test Open Sky API
      *
      * @return void
      */
@@ -58,8 +68,5 @@ class FetcherTest extends TestCase
         $this->assertArrayHasKey('states', $data);
 
     }
-
-    
-
 
 }

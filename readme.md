@@ -21,10 +21,26 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-##  Please run following commands in order to set up the project ##
-clone 
+##  Please run following commands to set up the project ##
 
-then run
+* type `git clone https://github.com/gayathma/datafetcher.git` to clone the repository 
+* type `cd datafetcher`
+* type `composer install`
+* copy *.env.example* to *.env*
+
+### OR ###
+
+* ** download as a zip file and unzip it in your folder. You can make a *composer update* to refresh vendor.
+
+### Features ###
+
+* Home Page
+* Air Traffic Data Display Page
+* Custom error pages 403, 404 and 503
+
+### Tests ###
+
+This project has been developed using Test Driven Development. PHPUnit is used to run the testcases. You can refer the index.html file inside /report folder to analyze code coverage statistics.
 
 ## Security Vulnerabilities
 

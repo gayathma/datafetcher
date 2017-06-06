@@ -8,8 +8,20 @@ use View;
 
 class FetcherController extends Controller
 {
+
+    /**
+     * The Guzzle Client instance.
+     *
+     * @var GuzzleHttp\Client
+     */
     private $guzzle;
 
+    /**
+     * Create a new Guzzle Client instance.
+     *
+     * @param  GuzzleHttp\Client $guzzle
+     * @return void
+    */
     public function __construct(Client $guzzle)
     {
         $this->guzzle = $guzzle;
