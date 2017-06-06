@@ -42,7 +42,7 @@ class FetcherController extends Controller
             ]);
 
         // send the request to fetch all states data and get the response
-        $response = $this->client->get($base_uri.'states/all?time=1458564121&icao24=3c6444');
+        $response = $this->client->get($base_uri.'states/all');
 
         // get air traffic data and json decode
         $result = json_decode($response->getBody(), true);
