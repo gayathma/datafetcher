@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('air-traffic', 'FetcherController@index');
+Route::get('/air-traffic', 'FetcherController@index');
 
 Auth::routes();
 

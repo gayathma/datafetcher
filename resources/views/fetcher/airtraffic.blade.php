@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
-                <div class="panel-heading">OpenSky Data</div>
+                <div class="panel-heading">Air Traffic Data</div>
 
                 <div class="panel-body">
                     <?php if(!is_null($result) && (isset($result['states']) && count($result['states']) > 0)): ?>
