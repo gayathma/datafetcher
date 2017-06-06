@@ -21,7 +21,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-##  Please run following commands after cloning the project ##
+##  Please run following commands in order to set up the project ##
+clone 
+
+then run
 
 ## Security Vulnerabilities
 
