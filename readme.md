@@ -41,14 +41,14 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 * Air Traffic Data Display Page
 * Custom error pages 403, 404 and 503
 
-![Alt text](/screenshots/sc1.PNG?raw=true "Home Page")
-![Alt text](/screenshots/sc2.PNG?raw=true "Air Traffic Data Display")
+![Alt text](/screenshots/sc1.png?raw=true "Home Page")
+![Alt text](/screenshots/sc2.png?raw=true "Air Traffic Data Display")
 
 ### Tests ###
 
 This project has been developed using Test Driven Development. PHPUnit is used to run the testcases. You can refer the index.html file inside /report folder to analyze code coverage statistics.
 
-![Alt text](/screenshots/sc3.PNG?raw=true "Code Coverage Stats")
+![Alt text](/screenshots/sc3.png?raw=true "Code Coverage Stats")
 
 ## License
 
