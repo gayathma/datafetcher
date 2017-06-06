@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('air-traffic', 'FetcherController@index');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
