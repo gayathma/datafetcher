@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<p align="center">Data Fetcher</p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -27,6 +27,9 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 * type `cd datafetcher`
 * type `composer install`
 * copy *.env.example* to *.env*
+* type `php artisan serve` with the given url you can access the application in the browser
+
+*** You can access the Air Traffic Data by clicking the Air Traffic Data link in the upper right corner of the Home Page.
 
 ### OR ###
 
