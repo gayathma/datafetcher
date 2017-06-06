@@ -41,6 +41,15 @@ This project has been developed using Test Driven Development. PHPUnit is used t
 
 ![Alt text](/screenshots/sc3.png?raw=true "Code Coverage Stats")
 
+### Implemented Files ###
+
+* FetcherController        -> /app/Http/Controllers/FetcherController.php
+* FetcherTest              -> /tests/Feature/FetcherTest.php
+* AirTrafficDataMenuTest   -> /tests/Browser/AirTrafficDataMenuTest.php
+* Air Traffic Data View    -> /resources/views/fetcher/airtraffic.blade.php
+* App View                 -> /resources/views/layouts/app.blade.php
+* Error Pages              -> /resources/views/errors/*
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
